@@ -1,4 +1,4 @@
 namespace: sandbox
 
 service:
-  port: 30001
+  port: 30002
