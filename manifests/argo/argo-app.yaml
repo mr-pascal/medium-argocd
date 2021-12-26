@@ -15,4 +15,8 @@ spec:
     path: manifests/helm-app
     repoURL: https://github.com/Abszissex/medium-argocd.git
     targetRevision: HEAD
-  syncPolicy: {}
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
